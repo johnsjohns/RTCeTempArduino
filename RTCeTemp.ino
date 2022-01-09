@@ -13,6 +13,7 @@
 #define LCD_D7 7
 #define LCD_RS 8
 #define LCD_ENABLE 9
+#define LCD_BLT 10
 /********************/
 #define DHTTYPE DHT22
 
@@ -23,8 +24,11 @@ DHT dht(DHTPIN, DHTTYPE);
 RTC_DS1307 rtc; //Os pinos SDA e SCL do modulo são conectados nos pinos nalógicos A4 e A5,
 boolean verifica = false;
 char daysOfTheWeek[7][12] = {"Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"};
+boolean luz = true;
 
 void setup() {
+  pinMode(LCD_BLT, OUTPUT);
+  digitalWrite(LCD_BLT, HIGH);
   lcd.begin(16, 2);
   dht.begin();
   delay(2000);
@@ -41,6 +45,19 @@ void loop() {
   if(x < 700 && x > 600){
     verifica = !verifica;
   }
+  
+  if(x<100 && x > 0){
+    if(luz){
+      digitalWrite(LCD_BLT, LOW);
+      luz = false;
+      delay(500);
+    } else { 
+      digitalWrite(LCD_BLT, HIGH);
+      luz = true;
+      delay(500);
+    }
+  }
+  
   if(verifica){
     menuTemp(tstamp);
   } else {
