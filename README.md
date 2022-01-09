@@ -26,17 +26,17 @@ LCD KEYPAD SHIEL DFROBOT DFR0009 - shield com display de cristal liquido 16x2 e 
 ------  
 
 ## Módulo RTC
-<img src="imagens/58634_16882.jpg" alt="drawing" width="200"/>
-<img src="imagens/550xN-14.jpg" alt="drawing" width="200"/>
-------  
+<img src="imagens/58634_16882.jpg" alt="drawing" width="300"/>
+<img src="imagens/550xN-14.jpg" alt="drawing" width="300"/>
+  
 
 ## Módulo DHT22
-<img src="imagens/SKU031549-.2.jpg" alt="drawing" width="200"/>
-<img src="imagens/Pinagem_DHT22.png" alt="drawing" width="200"/>
-------  
+<img src="imagens/SKU031549-.2.jpg" alt="drawing" width="300"/>
+<img src="imagens/Pinagem_DHT22.png" alt="drawing" width="300"/>
+  
 
 ## LCD KEYPAD SHIELD
-<img src="imagens/9f6d85ab07f449260915a40d5e54d418.jpg" alt="drawing" width="200"/>
-<img src="imagens/dcbe7050311b516ea93f84fa4a59e55d.png" alt="drawing" width="200"/>
+<img src="imagens/9f6d85ab07f449260915a40d5e54d418.jpg" alt="drawing" width="300"/>
+<img src="imagens/dcbe7050311b516ea93f84fa4a59e55d.png" alt="drawing" width="300"/>
 
 
