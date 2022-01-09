@@ -10,12 +10,13 @@ LCD KEYPAD SHIEL DFROBOT DFR0009 - shield com display de cristal liquido 16x2 e 
 ### pinos usados no projeto:  
 #### Digitais:
 - D3 - Conectado ao DATA do DTH  
-- D4 - Conectado ao pino de dados do LCD KEYPAD SHIEL  
-- D5 - Conectado ao pino de dados do LCD KEYPAD SHIEL  
-- D6 - Conectado ao pino de dados do LCD KEYPAD SHIEL  
-- D7 - Conectado ao pino conectado de LCD KEYPAD SHIEL  
-- D8 - Conectado ao pino RS do LCD KEYPAD SHIEL  
-- D9 -Conectado ao  pino ENABLE LCD KEYPAD SHIEL
+- D4 - Conectado ao pino de dados do LCD KEYPAD SHIELD  
+- D5 - Conectado ao pino de dados do LCD KEYPAD SHIELD  
+- D6 - Conectado ao pino de dados do LCD KEYPAD SHIELD  
+- D7 - Conectado ao pino conectado de LCD KEYPAD SHIELD  
+- D8 - Conectado ao pino RS do LCD KEYPAD SHIELD  
+- D9 - Conectado ao pino ENABLE do LCD KEYPAD SHIELD  
+- D10 - Conectado 10 pino BackLight do LCD KEYPAD SHIELD  
  
  ### Analógicos:  
  - A0 - Conectado ao botões do LCD KEYPAD SHIEL  
