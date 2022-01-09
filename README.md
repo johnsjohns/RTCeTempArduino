@@ -19,6 +19,6 @@ LCD KEYPAD SHIEL DFROBOT DFR0009 - shield com display de cristal liquido 16x2 e 
 - D10 - Conectado 10 pino BackLight do LCD KEYPAD SHIELD  
  
  ### Analógicos:  
- - A0 - Conectado ao botões do LCD KEYPAD SHIEL  
+ - A0 - Conectado ao botões do LCD KEYPAD SHIELD  
  - A4 - conectado ao pino SDA do módulo RTC  
  - A5 - Conectado ao pino SCL Do módulo RTC  
